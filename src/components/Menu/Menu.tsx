@@ -8,7 +8,7 @@ const routes = [
   { href: "/cars", value: "Свободные машины" },
   { href: "/cars/economy", value: "Эконом" },
   { href: "/cars/comfort", value: "Комфорт" },
-  { href: "/cars/premium", value: "Премиум" },
+  { href: "/cars/premium", value: "Бизнес" },
   { href: "/cars/add", value: "Добавить машину" },
 ];
 

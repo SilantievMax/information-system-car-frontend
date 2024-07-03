@@ -56,6 +56,8 @@ const colors = {
   night: "#111217",
   white: "#FFFFFF",
   jet: "#333439",
+  indianRed: "#EA6266",
+  aquamarine: "#31D7A7",
 };
 
 /**

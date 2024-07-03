@@ -7,8 +7,20 @@ interface StatusProps {
   variant?: "success" | "warning" | "error";
 }
 
-const Status: FC<StatusProps> = ({ text }) => {
-  return <div className={twMerge(classNames("p-4 border border-white rounded-8 "))}>{text}</div>;
+const Status: FC<StatusProps> = ({ text, variant }) => {
+  return (
+    <div
+      className={twMerge(
+        classNames(
+          "py-4 px-8 border-2 cursor-pointer border-white rounded-8",
+          { "border-indianRed": variant === "error" },
+          { "border-aquamarine": variant === "success" }
+        )
+      )}
+    >
+      {text}
+    </div>
+  );
 };
 
 export default Status;
