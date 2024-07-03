@@ -3,6 +3,9 @@ export type CarsType = {
   carNumber: string;
   images: string[];
   availability: boolean;
+  fuelAmount: number;
+  percentageTime: number;
+  bookingTime: string;
   characteristics: {
     parkingCamera: boolean;
     heatedSeats: boolean;
@@ -25,6 +28,9 @@ export const economyData: CarsType[] = [
     carNumber: "S 543 FG 797",
     images: ["/images/cars/photo_5201734965379851192_y.jpg", "/images/cars/photo_5201734965379851188_y.jpg", "/images/cars/photo_5201734965379851187_y.jpg"],
     availability: true,
+    fuelAmount: 324,
+    percentageTime: 23,
+    bookingTime: "3:34",
     characteristics: {
       parkingCamera: true,
       heatedSeats: true,
@@ -58,6 +64,9 @@ export const economyData: CarsType[] = [
       "/images/cars/photo_5201734965379851676_y.jpg",
     ],
     availability: false,
+    fuelAmount: 342,
+    percentageTime: 12,
+    bookingTime: "3:43",
     characteristics: {
       parkingCamera: true,
       heatedSeats: false,
@@ -86,6 +95,9 @@ export const economyData: CarsType[] = [
     carNumber: "D 534 FG 797",
     images: ["/images/cars/photo_5201734965379851741_y.jpg", "/images/cars/photo_5201734965379851774_y.jpg", "/images/cars/photo_5201734965379851784_y.jpg"],
     availability: true,
+    fuelAmount: 342,
+    percentageTime: 77,
+    bookingTime: "3:44",
     characteristics: {
       parkingCamera: true,
       heatedSeats: false,
@@ -114,6 +126,9 @@ export const economyData: CarsType[] = [
     carNumber: "F 455 FF 797",
     images: ["/images/cars/photo_5201734965379851806_y.jpg", "/images/cars/photo_5201734965379851811_y.jpg", "/images/cars/photo_5201734965379851823_y.jpg"],
     availability: false,
+    fuelAmount: 435,
+    percentageTime: 78,
+    bookingTime: "6:43",
     characteristics: {
       parkingCamera: false,
       heatedSeats: true,
@@ -142,6 +157,9 @@ export const economyData: CarsType[] = [
     carNumber: "K 357 BY 797",
     images: ["/images/cars/photo_5201734965379851913_y.jpg", "/images/cars/photo_5201734965379851906_y.jpg", "/images/cars/photo_5201734965379851925_y.jpg"],
     availability: true,
+    fuelAmount: 33,
+    percentageTime: 67,
+    bookingTime: "2:34",
     characteristics: {
       parkingCamera: false,
       heatedSeats: false,
@@ -173,6 +191,9 @@ export const comfortData: CarsType[] = [
     carNumber: "K 343 GJ 797",
     images: ["/images/cars/photo_5201734965379850201_y.jpg", "/images/cars/photo_5201734965379850200_y.jpg", "/images/cars/photo_5201734965379850198_y.jpg"],
     availability: true,
+    fuelAmount: 544,
+    percentageTime: 45,
+    bookingTime: "3:23",
     characteristics: {
       parkingCamera: false,
       heatedSeats: true,
@@ -198,9 +219,12 @@ export const comfortData: CarsType[] = [
   },
   {
     name: "Geelly Coolray",
-    carNumber: "S 454 FG 797",
+    carNumber: "S 756 FG 797",
     images: ["/images/cars/photo_5201734965379850208_y.jpg", "/images/cars/photo_5201734965379850209_y.jpg", "/images/cars/photo_5201734965379850210_y.jpg"],
     availability: true,
+    fuelAmount: 434,
+    percentageTime: 34,
+    bookingTime: "2:22",
     characteristics: {
       parkingCamera: false,
       heatedSeats: true,
@@ -229,6 +253,9 @@ export const comfortData: CarsType[] = [
     carNumber: "D 455 FG 797",
     images: ["/images/cars/photo_5201734965379850746_y.jpg", "/images/cars/photo_5201734965379850758_y.jpg", "/images/cars/photo_5201734965379850780_y.jpg"],
     availability: false,
+    fuelAmount: 342,
+    percentageTime: 12,
+    bookingTime: "3:33",
     characteristics: {
       parkingCamera: true,
       heatedSeats: true,
@@ -257,6 +284,9 @@ export const comfortData: CarsType[] = [
     carNumber: "D 653 FG 797",
     images: ["/images/cars/photo_5201734965379850866_y.jpg", "/images/cars/photo_5201734965379850879_y.jpg", "/images/cars/photo_5201734965379850887_x.jpg"],
     availability: true,
+    fuelAmount: 443,
+    percentageTime: 65,
+    bookingTime: "12:34",
     characteristics: {
       parkingCamera: true,
       heatedSeats: true,
@@ -285,6 +315,9 @@ export const comfortData: CarsType[] = [
     carNumber: "F 453 FF 797",
     images: ["/images/cars/photo_5201734965379851046_y.jpg", "/images/cars/photo_5201734965379851052_y.jpg", "/images/cars/photo_5201734965379851060_y.jpg"],
     availability: false,
+    fuelAmount: 422,
+    percentageTime: 1,
+    bookingTime: "3:22",
     characteristics: {
       parkingCamera: true,
       heatedSeats: true,
@@ -316,6 +349,9 @@ export const premiumData: CarsType[] = [
     carNumber: "В 454 АП 797",
     images: ["/images/cars/photo_5201734965379850221_y.jpg", "/images/cars/photo_5201734965379850222_y.jpg", "/images/cars/photo_5201734965379850224_y.jpg"],
     availability: false,
+    fuelAmount: 122,
+    percentageTime: 35,
+    bookingTime: "2:34",
     characteristics: {
       parkingCamera: true,
       heatedSeats: true,
@@ -344,6 +380,9 @@ export const premiumData: CarsType[] = [
     carNumber: "D 435 GF 797",
     images: ["/images/cars/photo_5201734965379850226_y.jpg", "/images/cars/photo_5201734965379850227_y.jpg", "/images/cars/photo_5201734965379850229_y.jpg"],
     availability: true,
+    fuelAmount: 342,
+    percentageTime: 54,
+    bookingTime: "2:32",
     characteristics: {
       parkingCamera: true,
       heatedSeats: true,
@@ -371,7 +410,10 @@ export const premiumData: CarsType[] = [
     name: "Audi Q3",
     carNumber: "F 564 FG 797",
     images: ["/images/cars/photo_5201734965379850302_y.jpg", "/images/cars/photo_5201734965379850319_y.jpg", "/images/cars/photo_5201734965379850331_y.jpg"],
-    availability: true,
+    availability: false,
+    fuelAmount: 324,
+    percentageTime: 94,
+    bookingTime: "3:56",
     characteristics: {
       parkingCamera: true,
       heatedSeats: false,
@@ -397,9 +439,12 @@ export const premiumData: CarsType[] = [
   },
   {
     name: "Audi F3",
-    carNumber: "D 454 FF 797",
+    carNumber: "D 435 FF 797",
     images: ["/images/cars/photo_5201734965379850529_y.jpg", "/images/cars/photo_5201734965379850533_y.jpg", "/images/cars/photo_5201734965379850543_y.jpg"],
     availability: false,
+    fuelAmount: 341,
+    percentageTime: 21,
+    bookingTime: "4:34",
     characteristics: {
       parkingCamera: true,
       heatedSeats: false,
@@ -428,6 +473,9 @@ export const premiumData: CarsType[] = [
     carNumber: "F 355 FD 797",
     images: ["/images/cars/photo_5201734965379850636_y.jpg", "/images/cars/photo_5201734965379850586_y.jpg", "/images/cars/photo_5201734965379850603_y.jpg"],
     availability: true,
+    fuelAmount: 214,
+    percentageTime: 87,
+    bookingTime: "2:54",
     characteristics: {
       parkingCamera: true,
       heatedSeats: true,
@@ -455,6 +503,14 @@ export const premiumData: CarsType[] = [
 
 export const freeCarsData: CarsType[] = [
   ...economyData.filter((item) => item.availability === true),
-  ...premiumData.filter((item) => item.availability === true),
+  ...comfortData.filter((item) => item.availability === true),
   ...premiumData.filter((item) => item.availability === true),
 ];
+
+export const rentCarsData: CarsType[] = [
+  ...economyData.filter((item) => item.availability === false),
+  ...comfortData.filter((item) => item.availability === false),
+  ...premiumData.filter((item) => item.availability === false),
+];
+
+export const allCarsData: CarsType[] = [...economyData, ...comfortData, ...premiumData];

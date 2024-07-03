@@ -15,8 +15,6 @@ const routes = [
 const Menu = () => {
   const pathname = usePathname();
 
-  console.log(pathname);
-
   return (
     <menu className="flex items-center gap-8 px-16 py-6 border rounded-16 border-white14 text-white">
       <h3 className="font-bold mr-16">Аренда автомобилей</h3>

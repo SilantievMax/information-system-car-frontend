@@ -8,10 +8,13 @@ import LineChart from "../LineChart/LineChart";
 import { CarsType } from "@/data/data";
 
 interface CardCarProps {
-  data: CarsType;
+  data: CarsType | null;
 }
 
 const CardCar: FC<CardCarProps> = ({ data }) => {
+  if (!data) {
+    return null;
+  }
   return (
     <Wrapper>
       <div className="flex items-center justify-between">
