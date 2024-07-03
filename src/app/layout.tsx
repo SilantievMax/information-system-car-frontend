@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
-      <body className={classNames(fonts.className, "bg-night")}>{children}</body>
+      <body className={classNames(fonts.className, "bg-night overflow-x-hidden")}>{children}</body>
     </html>
   );
 }

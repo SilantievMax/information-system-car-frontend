@@ -6,6 +6,8 @@ import type { Config } from "tailwindcss";
 const height = {
   3: "0.188rem",
   16: "1rem",
+  120: "7.5rem",
+  200: "12.5rem",
 };
 
 /**
@@ -13,13 +15,18 @@ const height = {
  */
 const width = {
   16: "1rem",
+  120: "7.5rem",
   306: "19.125rem",
+  500: "31.25rem",
+  700: "43.75rem",
 };
 
 /**
  * Расстояние.
  */
 const spacing = {
+  0: "0rem",
+  2: "0.125rem",
   4: "0.25rem",
   6: "0.375rem",
   8: "0.5rem",
@@ -45,6 +52,7 @@ const colors = {
   blueViolet: "#8039EF",
   white14: "#FFFFFF14",
   white50: "#FFFFFF50",
+  white80: "#FFFFFF80",
   night: "#111217",
   white: "#FFFFFF",
   jet: "#333439",

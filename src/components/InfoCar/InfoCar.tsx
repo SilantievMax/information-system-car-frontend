@@ -24,7 +24,7 @@ const InfoCar: FC<InfoCarProps> = ({ isActive }) => {
   return (
     <div
       className={twMerge(
-        classNames("bg-jet p-10 rounded-16 text-white max-w-306 min-w-306 flex flex-col gap-22 cursor-pointer", { "bg-blueViolet": isActive })
+        classNames("bg-jet p-10 rounded-16 text-white max-w-306 min-w-306 flex flex-col gap-22 cursor-pointer select-none", { "bg-blueViolet": isActive })
       )}
     >
       <div>
